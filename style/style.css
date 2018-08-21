@@ -18,7 +18,7 @@
 .my-mission-text::after {
     content: '';
     display: block;
-    border: 1px solid #ffc107;
+    border: 1px solid #9CB5CE;
     width: 200px;
     margin: 30px auto;
 }
@@ -26,7 +26,7 @@
 .my-mission-background-icon {
     width: 100px;
     height: 100px;
-    border: 1px solid #ffc107;
+    border: 1px solid #9CB5CE;
     border-radius: 50%;
     padding: 0.4rem;
     position: relative;
@@ -34,7 +34,7 @@
 
 .my-mission-icon {
     font-size: 2rem;
-    color: #ffc107;
+    color: #9CB5CE;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,7 +44,7 @@
 .my-portfolio-text::after {
     content: '';
     display: block;
-    border: 1px solid #ffc107;
+    border: 1px solid #9CB5CE;
     width: 200px;
     margin: 30px auto;
 }
@@ -106,7 +106,7 @@
 }
 
 .fa-quote-right {
-    color: #ffc107;
+    color: #9CB5CE;
     font-size: 2rem;
 }
 
@@ -123,7 +123,7 @@
 .my-team-text::after {
     content: '';
     display: block;
-    border: 1px solid #ffc107;
+    border: 1px solid #9CB5CE;
     width: 200px;
     margin: 30px auto;
 }
@@ -135,7 +135,7 @@
 }
 .my-contact-text::after { content: '';
     display: block;
-    border: 1px solid #ffc107; width: 200px;
+    border: 1px solid #9CB5CE; width: 200px;
     margin: 30px auto; }
     .my-contact-box { max-width: 700px; position: relative;
     }
@@ -153,10 +153,16 @@
         }
         .my-footer-header::after { content: '';
             display: block;
-            border: 1px solid #ffc107; width: 100%;
+            border: 1px solid #9CB5CE; width: 100%;
             margin: 5px 0 10px 0; }
 
         .my-portfolio-img-group:hover {
             cursor: pointer;
             transform: scale(1.1);
+        }
+        .bg-mybackground{
+            background-color: #9CB5CE;
+        }
+        .text-mybackground{
+            color: #9CB5CE;
         }
